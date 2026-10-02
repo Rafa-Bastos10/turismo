@@ -1,1 +1,42 @@
-.
+body{
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(8, 57, 73);
+}
+
+.topo{
+    display: flex;
+}
+
+nav{
+    ul{
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+
+        li{
+            list-style: none;
+            margin-right: 10px; 
+            
+        }
+
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-logo img{
+width: 8%;
+}
+
+.menu-navegacao{
+    justify-content: center;
+}
