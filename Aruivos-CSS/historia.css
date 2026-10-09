@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: rgb(8, 57, 73);
+}
+
+nav {
+    background-color: rgb(8, 57, 73);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+nav img {
+    padding-bottom: 10px;
+}
+
+nav li {
+    font-size: 1.5rem;
+}
+
+
+li {
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+
+a {
+    color: white;
+
+}
+
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+    transform: translateX(50%);
+
+}
+
+
+.logo{
+    width: 300px;
+}
+
+
+
+section {
+    padding: 20px;
+}
+
+
+
+.banner{
+width: 100%;
+}
+
+.historia {
+    color: rgb(46, 90, 136);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.historia2 {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: start;
+
+}
