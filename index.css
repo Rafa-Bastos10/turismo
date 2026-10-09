@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    position: relative;
+
+}
+
+img{
+  width:  100%;
+  height: auto;
+  display: block;
+}
+
+.menu{
+    position: absolute;
+    top: 7%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.menu ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+ 
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgba(255, 198, 41, 0.2);
+    color: rgb(115, 141, 255);
+    border-bottom: 2px solid rgb(115, 141, 255);
+}
+
+.menu h3{
+    font-size: 26px;
+    margin: 0;
+}
+
+
+.topo{
+    position: relative;
+}
+button {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 40px;
+    padding: 18px 40px;
+    cursor: pointer;
+}
+
+button a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background-color: rgb(115, 141, 255);
+    color: white;
+    border-color: white;
+
+}
