@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(8, 57, 73);
+}
+
+.img-logo{
+    width: 600px;
+}
+
+.img-logo img{
+    width: 40%;
+}
+
+nav {
+  background-color: rgb(8, 57, 73);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+
+}
+
+nav img{
+  padding-bottom: 10px;
+}
+nav li{
+  font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+
+    margin: 0;
+
+}
+
+a {
+    color: white;
+
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    height: 100px;
+
+}
+
+main .secao1{
+    background-image: url(../imagens/vista-de-paraty.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 90px;
+    padding-left: 50px;
+    margin: 0;
+    color: white;
+}
+
+.secao1 h1{
+    font-size: 100px;
+}
+
+.secao1 {
+    font-size: 30px;
+}
+
+.contato{
+    margin-left: 50px;
+}
+
+.email{
+    display: flex;
+    justify-content: left;
+}
+
+.email-img{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.contato p{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.telefone{
+    display: flex;
+    justify-content: left;
+}
+
+.telefone-img{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer img {
+    padding-top: 0;
+    padding-right: 250px;
+}
+
+.rodape {
+    background-color: rgb(8, 57, 73);
+    padding: 20px 0 20px;
+    margin-top: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5rem;
+    padding-right: 250px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+    padding-right: 80px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+footer {
+    img {
+        height: 100px;
+        padding-left: 50px;
+    }
+}
+
+footer p {
+    color: white;
+    background-color: rgb(5, 42, 54);
+    margin: 0;
+    padding: 15px;
+    padding-left: 845px;
+}
