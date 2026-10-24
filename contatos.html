@@ -28,9 +28,8 @@
     <main>
 
         <section class="secao1">
-            <h1>
-                Entre em contato
-            </h1>
+            <span class="etiqueta">Contato</span>
+            <h1>Entre em contato</h1>
             <p>Estamos pronto para te ajudar <br> a planejar sua viagem!</p>
         </section>
 
@@ -38,51 +37,128 @@
 
         <section class="secao2">
 
-            <div>
+            <div class="contato-wrapper">
+
                 <div class="contato">
                     <h1>Fale conosco</h1>
-                    <p>Queremos ouvir você! Se tiver dúvidas sobre passeios, sugestões ou precisar <br> de ajuda para montar o seu roteiro por Paraty, preencha o formulário abaixo. <br>Nossa equipe responderá o mais rápido possível.</p>
+                    <p>Queremos ouvir você! Se tiver dúvidas sobre passeios, sugestões ou precisar <br> de ajuda para
+                        montar o seu roteiro por Paraty, preencha o formulário abaixo. <br>Nossa equipe responderá o
+                        mais rápido possível.</p>
+                    <div class="contato2">
+                        <div class="email">
+                            <div class="email-img">
+                                <img src="./imagensFa/email.webp" alt="imagem email">
+                            </div>
 
-                    <div class="email">
-                        <div class="email-img">
-                            <img src="./imagensFa/email.webp" alt="imagem email">
+                            <div class="email-txt">
+                                <h1>Email</h1>
+                                <p>parati@gmail.com.br</p>
+                            </div>
                         </div>
 
-                        <div class="email-txt">
-                            <h1>Email</h1>
-                            <p>parati@gmail.com.br</p>
+                        <div class="telefone">
+                            <div class="telefone-img">
+                                <img src="./imagensFa/Telefone.png" alt="imagem email">
+                            </div>
+
+                            <div class="telefone-txt">
+                                <h1>Telefone</h1>
+                                <p>(11) 9999-9999</p>
+                            </div>
+                        </div>
+
+                        <div class="localizacao">
+                            <div class="locaizacao-img">
+                                <img src="./imagensFa/Localizacao.png" alt="imagem Localizacao">
+                            </div>
+
+                            <div class="localizacao-txt">
+                                <h1>Endereço</h1>
+                                <p>R. Santo André, 680</p>
+                            </div>
+                        </div>
+
+                        <div class="rede-social">
+                            <div class="rede-social-img">
+                                <a href="#"><img id="insta" src="./imagensFa/instagram.webp" alt="imagem instagram"></a>
+                            </div>
+
+                            <div class="rede-social-img">
+                                <a href="#"><img src="./imagensFa/black-youtube.webp" alt="imagem youtube"></a>
+                            </div>
+
+                            <div class="rede-social-img">
+                                <a href="#"><img src="./imagensFa/whatsapp.webp" alt="imagem whatsapp"></a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="telefone">
-                        <div class="telefone-img">
-                            <img src="./imagensFa/Telefone.png" alt="imagem email">
-                        </div>
-
-                        <div class="telefone-txt">
-                            <h1>Telefone</h1>
-                            <p>(11) 9999-9999</p>
-                        </div>
-                    </div>
-
-                    <div class="local">
-                        <div class="local-img">
-                            <img src="./imagensFa/Telefone.png" alt="imagem email">
-                        </div>
-
-                        <div class="telefone-txt">
-                            <h1>Telefone</h1>
-                            <p>(11) 9999-9999</p>
-                        </div>
-                    </div>
-
                 </div>
 
+                <div class="divisor-vertical"></div>
+
                 <div class="formulario">
+                    <h2>Envie uma mensagem</h2>
+
+                    <form action="">
+
+                        <div class="linha-dupla">
+                            <div class="campo">
+                                <label for="nome">Nome *</label>
+                                <input type="text" id="nome" required>
+                            </div>
+                            <div class="campo">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" required>
+                            </div>
+                        </div>
+
+                        <div class="campo">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto">
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="duvida">Dúvidas</option>
+                                <option value="orcamento">Orçamento</option>
+                                <option value="sugestao">Sugestões</option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" required></textarea>
+                        </div>
+
+                        <button type="submit" class="botao-enviar">Enviar mensagem</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <div class="localidade">
+                    <div class="mapa">
+                        <div class="mapa-img">
+                            <a target="_blank" href="https://maps.app.goo.gl/N7kNdnLbQS4yGFLF9"><img src="imagensFa/mapa.png" alt="Imagem do mapa"></a>
+                        </div>
+                    </div>
+
+                    <div class="paisagem">
+                        <div class="paisagem-img">
+                            <img src="imagensFa/paraty-rj-1.jpg" alt="Imagem da paisagem de paraty">
+                        </div>
+                    </div>
+
+                    <div class="texto">
+                        <div class="texto-2">
+                            <h3>Venha Nos Visitar!</h3>
+                            <p>Este é o coração de Paraty! <br> Onde a história e o aconchego se encontram. </p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-
         </section>
 
 
