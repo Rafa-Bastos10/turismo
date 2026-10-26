@@ -120,6 +120,16 @@ img {
     margin-top: 20px;
 }
 
+.email-txt p{
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+.email-txt h1{
+    margin-left: -35px;
+}
+
+
 .contato p {
     margin-top: -40px;
     margin-bottom: 40px;
@@ -132,7 +142,22 @@ img {
 
 .telefone-img {
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-left: 13px;
+}
+
+.telefone-img img{
+    width: 70px;
+    height: auto;
+}
+
+.telefone-txt p{
+    margin-top: -35px;
+    margin-left: -20px;
+}
+
+.telefone-txt h1{
+    margin-left: -20px;
 }
 
 .localizacao {
@@ -142,16 +167,28 @@ img {
 
 .locaizacao-img {
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 7px;
 }
 
 .localizacao-txt p{
     margin-top: -35px;
+    margin-left: -20px;
+}
+
+.localizacao-txt h1{
+    margin-left: -20px;
+}
+
+.locaizacao-img img{
+    height: auto;
+    width: 80px;
 }
 
 .rede-social {
     display: flex;
     justify-content: left;
+    margin-left: 10px;
 }
 
 .rede-social-img {
