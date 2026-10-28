@@ -456,3 +456,66 @@ main {
     justify-content: center;
     padding-right: 30px;
 }
+
+.btn-cabecalho {
+    padding: 12px 22px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-cabecalho:hover {
+    background-color: white;
+    border: whitesmoke;
+    transition: 0.78s;
+    transform: translateY(-8px);
+
+a {
+    color: rgb(5, 42, 54)
+}
+}
+
+.bnt-menu {
+    padding: 12px 22px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.bnt-menu:hover {
+    background-color: white;
+    border: whitesmoke;
+    transition: 0.78s;
+    transform: translateY(-8px);
+
+a {
+    color: rgb(5, 42, 54)
+}
+}
+
+.btn-enviar {
+    width: 100%;
+    background-color: #05263b; 
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-enviar:hover {
+    background-color: #164868;
+    border: #05263b;
+    transition: 0.78s;
+    transform:  translateY(-8px);
+}
