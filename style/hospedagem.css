@@ -1,0 +1,245 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.navegacaotopo {
+    background-color: rgb(8, 57, 73);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    padding-right: 60px;
+}
+
+nav img {
+    padding-bottom: 10px;
+}
+
+nav li {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+}
+.btn-cabecalho{
+    padding: 12px 22px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+.btn-cabecalho:hover{
+    background-color: white;
+    border:whitesmoke;
+    transition: 0.78s;
+    transform: translateY(-8px);
+    a{
+    color:rgb(5, 42, 54)
+}
+
+}
+
+
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+
+nav img {
+    height: 100px;
+}
+
+.fundo1 {
+    background-image: url(fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 90px;
+    padding-left: 50px;
+    margin: 0;
+    color: white;
+}
+
+
+.fundo1 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fundo2 {
+    height: 70px;
+    background-color: rgb(8, 57, 73);
+}
+
+.fundo3 {
+    padding: 0;
+    background-color: white;
+    display: inline-flexbox;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.banner img {
+    width: 400px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.fundobanner {
+    background-color: rgb(8, 57, 73);
+    padding-bottom: 11px;
+    border-radius: 6px;
+}
+
+.banner {
+    border-radius: 12px;
+    padding-right: 0;
+    margin: 20px;
+    padding-left: 0;
+}
+
+.banner h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+    padding-left: 30px;
+}
+
+.textobanner {
+    padding-left: 30px;
+}
+
+.maebanner {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+
+
+
+
+
+.apresentacaohospedagens{
+    padding-top: 40px;
+    padding-left: 40px;
+    color: rgb(5, 42, 54);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+footer img {
+    padding-top: 0;
+    margin-right: 130px;
+}
+
+.SobreIlhaParaty h1{
+    color: rgb(5, 42, 54);
+}
+.SobreIlhaParaty h2{
+    color: rgb(5, 42, 54);
+}
+
+.mapa{
+    border-radius: 12px;
+    border: 3px solid rgb(5, 42, 54);
+}
+.fundo6{
+    background-color: #F4F0E6;
+    border-radius: 22px 22px 0px 0px;
+}
+.transicaofooter{
+    background-color: #D8C6A0;
+    height: 7px;
+}
+.rodape {
+    background-color: rgb(8, 57, 73);
+    padding: 20px 0 20px;
+    margin-top: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+    padding-right: 80px;
+    margin: 0;
+    font-size: 1.5rem;
+    margin-left: 130px;
+}
+
+footer {
+    img {
+        height: 100px;
+    }
+}
+
+footer p {
+    color: white;
+    background-color: rgb(5, 42, 54);
+    margin: 0;
+    padding: 15px;
+}
+
+.direitos p {
+    text-align: center;
+}
+
+
+
