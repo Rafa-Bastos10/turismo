@@ -22,7 +22,7 @@ img{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 25px;
+    gap: 80px;
  
 }
 
@@ -38,7 +38,7 @@ img{
 }
 
 .menu h3{
-    font-size: 26px;
+    font-size: 30px;
     margin: 0;
 }
 

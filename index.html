@@ -1,35 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina inical</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Paraty - Rio de Janeiro | Início</title>
+
+
+    <link rel="stylesheet" href="Aruivos-CSS/index.css">
 </head>
 
-<body> 
+<body>
     <header>
-        
+        <div class="topo">
+            <img src="imagens/imginicio/banner_inicioold.jpg" alt="imagem inicial da Pagina">
+
+            <div class="logo">
+                <img src="imagens/logo.png" alt="logotipo">
+            </div>
+
+
+        </div>
+
+
+        <!--menu-->
+        <div class="menu">
+            <ol>
+
+                <li><a href="index.html" class="ativo" rel="noopener noreferrer">
+                        <h3>Início</h3>
+                    </a></li>
+                <li><a href="sobre.html" rel="noopener noreferrer">
+                        <h3>Sobre Paraty</h3>
+                    </a></li>
+                <li><a href="passeioseatividades.html" rel="noopener noreferrer">
+                        <h3>Passeios e Atividades</h3>
+                    </a></li>
+                <li><a href="contato.html" rel="noopener noreferrer">
+                        <h3>Contato</h3>
+                    </a></li>
+                 <li><a href="hospedagem.html" rel="noopener noreferrer">
+                        <h3>Hospedagem</h3>
+                    </a></li>
+            </ol>
+        </div>
+
+
     </header>
-    <div class="topo">
-    <img src="imagens/imginicio/ChatGPT Image 30 de set. de 2026, 15_00_02.png" alt="">
 
-  <!--menu--> 
-  <div class="menu">
-<ol>
+    <div class="frases">
 
-    <li><a href="inicio.html" rel="noopener noreferrer" ><h3>INÍCIO</h3></a></li>
-    <li><a href="sobre.html" rel="noopener noreferrer"><h3>SOBRE</h3></a></li>
-    <li><a href="hospedagem.html" rel="noopener noreferrer"><h3>HOSPEDAGEM</h3></a></li>
-    <li><a href="gastronomia.html" rel="noopener noreferrer"><h3>GASTRONOMIA</h3></a></li>
-     <li><a href="dicas.html" rel="noopener noreferrer"><h3>DICAS</h3></a></li>
-    <li><a href="contato.html" rel="noopener noreferrer" ><h3>CONTATO</h3></a></li>
+        <div class="cartao">
+            <img src="imagens/imginicio/iconecoqueiro.png" alt="">
+            <h4>Praias paradisíacas</h4>
+            <p>Águas cristalinas e natureza preservada.</p>
+        </div>
 
-</ol>
-</div>
+        <hr>
 
-<button type="button"><a href="inicio.html">DESCUBRA MAIS ➔</a></button>
+        <div class="cartao">
+            <img src="imagens/imginicio/iconeigreja.png" alt="">
+            <h4>Centro histórico</h4>
+            <p>Arquitetura colonial e muito charme.</p>
+        </div>
 
-</div>
+        <hr>
+
+        <div class="cartao">
+            <img src="imagens/imginicio/iconebarco.png" alt="">
+            <h4>Passeios de barco</h4>
+            <p>Ilhas, cachoeiras e cenários incríveis.</p>
+        </div>
+
+        <hr>
+
+        <div class="cartao">
+            <img src="imagens/imginicio/iconefolha.png" alt="">
+            <h4>Ecoturismo</h4>
+            <p>Trilhas, cachoeiras e muito verde.</p>
+        </div>
+
+        <hr>
+
+        <div class="cartao">
+            <img src="imagens/imginicio/iconegastronomia.png" alt="">
+            <h4>Gastronomia local</h4>
+            <p>Sabores únicos da culinária caiçara.</p>
+        </div>
+
+    </div>
+
+
+    <!--o que fazer em Paraty-->
+    <section class="atracoes">
+        <div class="atracoesdisplay">
+            <div class="atracoes-texto">
+                <h4>EXPERIÊNCIAS INCRÍVEIS</h4>
+                <h2>O que fazer em Paraty</h2>
+                <p>Explore passeios, conheça praias deslumbrantes, visite o centro histórico e viva experiências
+                    inesquecíveis.</p>
+                <button type="button"><a href="dicas.html">Ver todas as atrações ➔</a></button>
+            </div>
+            <div class="atracoes-lista">
+
+                <div class="card">
+                    <img src="imagens/imginicio/praia.jpg" alt="Praia de águas cristalinas">
+                    <h4>Praias</h4>
+                    <p>Explore as mais belas praias da região.</p>
+                    <button type="button"><a href="passeioseatividades.html">Saiba mais ➔</a></button>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/imginicio/passeiobarco.jpg" alt="Barco ancorado na baía de Paraty">
+                    <h4>Passeios de barco</h4>
+                    <p>Ilhas, praias e muito mais.</p>
+                    <button type="button"><a href="passeioseatividades.html">Saiba mais ➔</a></button>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/imginicio/centrohistorico.jpg"
+                        alt="Casario colonial e igreja do centro histórico">
+                    <h4>Centro histórico</h4>
+                    <p>Cultura, arte e história.</p>
+                    <button type="button"><a href="sobre.html">Saiba mais ➔</a></button>
+
+                </div>
+
+                <div class="card">
+                    <img src="imagens/imginicio/hotel.webp" alt="Cachoeira no meio da mata">
+                    <h4>Hospedagem</h4>
+                    <p>Hoteis e pusadas maravilhosas.</p>
+                    <button type="button"><a href="hospedagem.html">Saiba mais ➔</a></button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--rodapé-->
+    <footer>
+
+        <div class="rodape">
+            <hr>
+
+            <div class="imagemfooter">
+                <img src="imagens/logo.png" alt="Logo Paraty">
+            </div>
+
+            <div>
+                <ul class="navegacao">
+                    <li><button class="btn-cabecalho"><a href="index.html">Início</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="sobre.html">Sobre Paraty</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="passeioseatividades.html">Passeios e
+                                Atividades</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="comidas.html">Gastronomia</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="dicas.html">Dicas</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="hospedagem.html">Hospedagem</a></button></li>
+
+                </ul>
+            </div>
+
+            <div>
+                <ul class="contato">
+                    <li><button class="btn-cabecalho"><a href="contatos.html">Contato</a></button></li>
+                    <li><button class="btn-cabecalho"><a href="">Instagram</a></button></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+
+
+        <div class="direitos">
+            <p>&copy; 2026 Paraty: todos os direitos reservados</p>
+        </div>
+
+    </footer>
+
+
 </body>
+
 </html>
